@@ -1,0 +1,143 @@
+*{
+margin:0%;
+padding:0%;
+box-sizing: border-box;
+cursor:pointer;
+}
+.layout
+{
+border: 2px hidden black;
+ margin: auto;
+  width: 1345px;
+padding:0px;
+}
+p{
+	font-size:20px;
+}
+h2{
+	font-family:"Arial";
+}
+header {
+background-color:#3682cf;
+color:white;
+padding:30px;
+text-align:center;
+font-size:30px;
+}
+.numbertext{
+	position:absolute;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+.Text{
+	color:#2d4c6b;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 300px;
+  width: 100%;
+  text-align: center;
+}
+.mySlides {
+  background: rgb(98, 113, 82); /* Black see-through */
+  color: black;
+  width: 100%;
+  opacity:0.5;
+}
+nav ul {
+list-style-type:none;
+background-color:#2d4c6b;
+padding:15px;
+margin-top:-5px;
+}
+nav ul li {
+display:inline-block;
+}
+nav ul li a {
+text-decoration:none;
+margin-left:100px;
+font-size:20px;
+color:white;
+}
+nav ul li a:hover{
+ color:#e6ebf0;
+}
+aside ul {
+list-style-type:none;
+}
+aside ul li{
+width:200px;
+padding:15px;
+font-size:20px;
+margin-left:30px;
+}
+footer{
+	background-color:#2d4c6b;
+	clear:both;
+	color:white;
+	height:300px;
+	}
+.foot ul li {
+display:inline-block;
+padding:10px;
+justify-content:space-between;
+margin-left:70px;
+margin-top:20px;
+}
+.foot ul li a {
+text-decoration:none;
+font-size:20px;
+color:white;
+}
+.contact{
+	float:left;
+	margin-left:70px;
+	width:40%;
+	}
+.subscribe{
+	float:right;
+	width:50%;
+}
+.subscribe input[type=text]
+ {
+         width:200px;
+		 height:30px;
+		 border-radius:5px;
+ }
+ .subscribe input[type=text]:hover
+ {
+         border:3px solid lightblue;
+         box-shadow:7px 7px 7px black;
+         color: blue;
+         width:230px;
+ }
+ .subscribe input[type=button]
+ {
+         width:150px;
+		 height:30px;
+		 border-radius:8px;
+ }
+  input[type=button]:hover
+ {
+         border:2px solid blue;
+         box-shadow:7px 7px 7px black;
+         color: blue;
+         width:170px;
+ }
+ .symbols{
+	 clear:both;
+	 text-align:center;
+	 justify-content:space-between;
+	 display:flex;
+	 padding:10px;
+ }
