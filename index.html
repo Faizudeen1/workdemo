@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Business</title>
+<link rel="stylesheet" href="external.css">
+<script src="https://kit.fontawesome.com/7b633927da.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="layout">
+<header>
+<b>Big Business</b>
+</header>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Clients</a></li>
+<li><a href="#">Support</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+<div class="slider">
+<div class="slideshow-container">
+
+<div class="mySlides">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://img.freepik.com/premium-photo/business-economic-growth-global-business-network-data-analysis-financial-banking_34200-779.jpg?size=626&ext=jpg&ga=GA1.2.2041149061.1673255482&semt=sph" alt="Business" style="width:1345px;height:500px;margin-left:0px;">
+</div>
+
+<div class="mySlides">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://img.freepik.com/premium-photo/business-development-success-growing-growth-concept-businessman-pointing-arrow-graph-corporate-future-growth-plan_20693-730.jpg?size=626&ext=jpg&ga=GA1.1.2041149061.1673255482&semt=sph" style="width:1345px;height:500px;">
+</div>
+
+<div class="mySlides">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://img.freepik.com/free-photo/businessmen-businesswomen-meeting-brainstorming-ideas_7861-3062.jpg?size=626&ext=jpg&ga=GA1.1.2041149061.1673255482&semt=sph" style="width:1345px;height:500px;" >
+</div>
+
+<span class="Text"><h1><b>BUSINESS MANAGEMENT</b></h1></span>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</div>
+<br><br>
+<section style="width:50%; float:left; margin-left:10%;">
+<h2>Welcome to Big Business</h2><br>
+<p>This is Big Business, a free and fully standards-compliant CSS website template by <a href="#">TEMPLATED</a>, The pictures is this template are from <a href="#">PDPhoto.org</a>. This Free CSS template Released under the <a href="#">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it provided you credit us in someway.</p><br><br>
+<article style="width:45%; float:left;">
+<h2>Mauris justo</h2><br>
+<p>condimention of positive tristique sec alipquet The QS World University Rankings ranked  Businesses can be for-profit entities or non-profit organizations</p> 
+</article>
+<aside style="width:50%; float:left;margin-left:30Px;">
+<h2>Magnis hendrerit erat</h2><br>
+<p>A business is defined as an organization or enterprising entity engaged in commercial, industrial, or professional activities.</p>
+</aside>
+</section>
+<aside style="width:25%; float:right; margin-right:5%;">
+<h2 style="margin-left:40px;">Cursus magnis</h2><br>
+<ul>
+<li><a href="#">Adipiseing tincident</a></li>
+<li><a href="#">Erriened elit</a></li>
+<li><a href="#">Deloe magnus</a></li>
+<li><a href="#">Mauris omerce</a></li>
+<li><a href="#">Ante semper</a></li>
+</ul>
+</aside><br><br><br><br><br><br><br><br>
+<img src="https://img.freepik.com/free-vector/two-business-partners-handshaking_74855-6685.jpg?w=826&t=st=1673258905~exp=1673259505~hmac=e75c3bec05d36b63e2271ba1ab2ca321bcdefa3bdd30592e7ecc605fa00cfcf4" alt="MONEY" style="width:600px;height:500px;margin-left:0px; float:left;">
+<article style="margin-top:300px; margin-right:40px;">
+<h2>Accounting</h2><br>
+<p>Accounting is the measurement, processing, and communication of financial information about economic entities[15][16] such as businesses and corporations. The modern field was established by the Italian mathematician Luca Pacioli in 1494.[17] Accounting, which has been called the "language of business",[18] measures the results of an organization's economic Practitioners of accounting are known as accountants. The terms "accounting" and "financial reporting" are often used as synonyms. </p><br>
+<h2>Commerce</h2><br>
+<p>The process of exchanging goods and services.</p><br>
+<h2>Finance</h2><br>
+<p>Finance is a field that deals with the study of money and investments. It includes the dynamics of assets and liabilities over time under condition.</p><br>
+</article>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<br>
+<footer>
+<div class="foot" >
+<ul><h4>
+<li><a href="#">Terms of Use</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Cookies Policy</a></li>
+<li><a href="#">Site Map</a></li>
+<li><a href="#">Contact Support</a></li>
+<li><a href="#">Advertise</a></li>
+</h4></ul>
+</div><br>
+<div class="contact">
+<h4>Subscribe to our Newsletter</h4><br>
+<p>The latest news, articles, and resources sent to your inbox.</p><br>
+</div>
+<div class="subscribe">
+<table><tr><td>
+<input type="text" placeholder="Enter Email address..."></td>
+<td><input type="button" value="Subscription"></td></tr></table><br>
+<p>I understand that the data I am submitting will be used to provide me with the above-described products and/or services and communications in connection therewith.</p><br>
+<p>Read our privacy policy for more information.</p>
+</div>
+<div class="symbols">
+<h5>copyrights <i class="far fa-copyright"></i></h5>
+<h3>
+<i class="fab fa-facebook"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-twitter"></i></h3>
+</div>
+</footer>
+</div>
+</body>
+</html>
